@@ -37,14 +37,9 @@ Edit
 python face_detect.py
 For detecting faces from a static image:
 
-bash
-Copy
-Edit
 python detect_from_image.py --image your_image.jpg
 📁 Project Structure
-bash
-Copy
-Edit
+
 face-detection/
 │
 ├── face_detect.py           # Main script for real-time face detection
@@ -60,3 +55,5 @@ Haar Cascade Classifier detects faces using pre-trained features in real-time.
 OpenCV captures frames from the webcam or image file, processes them, and applies the face detection algorithm.
 
 Detected faces are highlighted with rectangles for visual feedback.
+
+License: This project is licensed under the MIT License. See the LICENSE file for more details.
